@@ -1,4 +1,4 @@
-package superintendent.adapters.discord;
+package superintendent.apis.discord;
 
 public class InsufficientPermissionsException extends Exception {
 

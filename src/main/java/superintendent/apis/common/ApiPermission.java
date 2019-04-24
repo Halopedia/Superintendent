@@ -1,4 +1,4 @@
-package superintendent.adapters.common;
+package superintendent.apis.common;
 
 public interface ApiPermission {
   

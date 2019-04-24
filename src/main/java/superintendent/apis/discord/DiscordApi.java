@@ -1,9 +1,9 @@
-package superintendent.adapters.discord;
+package superintendent.apis.discord;
 
 import java.util.List;
 
-import superintendent.adapters.common.Listener;
-import superintendent.adapters.common.events.CreateEvent;
+import superintendent.apis.common.Listener;
+import superintendent.apis.common.events.CreateEvent;
 
 public interface DiscordApi {
   

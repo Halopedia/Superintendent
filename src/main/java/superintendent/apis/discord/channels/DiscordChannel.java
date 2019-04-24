@@ -1,10 +1,10 @@
-package superintendent.adapters.discord.channels;
+package superintendent.apis.discord.channels;
 
 import java.util.List;
 import java.util.Optional;
 
-import superintendent.adapters.discord.DiscordPermission;
-import superintendent.adapters.discord.DiscordServer;
+import superintendent.apis.discord.DiscordPermission;
+import superintendent.apis.discord.DiscordServer;
 
 public interface DiscordChannel {
   

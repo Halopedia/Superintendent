@@ -1,7 +1,7 @@
-package superintendent.adapters.discord;
+package superintendent.apis.discord;
 
-import superintendent.adapters.common.ApiPermission;
-import superintendent.adapters.discord.channels.DiscordChannel;
+import superintendent.apis.common.ApiPermission;
+import superintendent.apis.discord.channels.DiscordChannel;
 
 public interface DiscordPermission extends ApiPermission {
   

@@ -1,4 +1,4 @@
-package superintendent.adapters.common;
+package superintendent.apis.common;
 
 import java.util.Arrays;
 import java.util.Collection;

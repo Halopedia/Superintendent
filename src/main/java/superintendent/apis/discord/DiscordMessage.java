@@ -1,9 +1,9 @@
-package superintendent.adapters.discord;
+package superintendent.apis.discord;
 
 import java.util.List;
 import java.util.Map;
 
-import superintendent.adapters.discord.channels.DiscordTextChannel;
+import superintendent.apis.discord.channels.DiscordTextChannel;
 
 public interface DiscordMessage {
   

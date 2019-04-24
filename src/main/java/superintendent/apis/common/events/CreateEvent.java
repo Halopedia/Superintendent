@@ -1,6 +1,6 @@
-package superintendent.adapters.common.events;
+package superintendent.apis.common.events;
 
-import superintendent.adapters.common.ApiEvent;
+import superintendent.apis.common.ApiEvent;
 
 public class CreateEvent<T> extends ApiEvent {
   

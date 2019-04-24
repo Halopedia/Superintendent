@@ -1,9 +1,9 @@
-package superintendent.adapters.discord.channels;
+package superintendent.apis.discord.channels;
 
 import java.util.List;
 
-import superintendent.adapters.discord.DiscordMessage;
-import superintendent.adapters.discord.InsufficientPermissionsException;
+import superintendent.apis.discord.DiscordMessage;
+import superintendent.apis.discord.InsufficientPermissionsException;
 
 public interface DiscordTextChannel extends DiscordChannel {
   

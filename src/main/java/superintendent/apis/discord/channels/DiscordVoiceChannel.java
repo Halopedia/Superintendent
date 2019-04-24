@@ -1,4 +1,4 @@
-package superintendent.adapters.discord.channels;
+package superintendent.apis.discord.channels;
 
 public interface DiscordVoiceChannel extends DiscordChannel {
   
