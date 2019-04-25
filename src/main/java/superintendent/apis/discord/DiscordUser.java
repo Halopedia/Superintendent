@@ -63,6 +63,13 @@ public interface DiscordUser {
   public boolean isBotOwner();
   
   /**
+   * Returns true if and only if the user is a bot.
+   * 
+   * @return true iff the user is a bot
+   */
+  public boolean isBot();
+  
+  /**
    * Returns true if and only if the user is an admin on the given
    * DiscordServer.
    * 

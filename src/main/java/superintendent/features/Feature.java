@@ -3,10 +3,11 @@ package superintendent.features;
 import java.util.Optional;
 import java.util.Set;
 
-import superintendent.adapters.common.ApiPermission;
-import superintendent.adapters.common.events.CreateEvent;
-import superintendent.adapters.discord.DiscordServer;
-import superintendent.adapters.discord.messages.DiscordMessage;
+import superintendent.apis.common.ApiPermission;
+import superintendent.apis.common.Listener;
+import superintendent.apis.common.events.CreateEvent;
+import superintendent.apis.discord.DiscordMessage;
+import superintendent.apis.discord.DiscordServer;
 
 public interface Feature {
   
@@ -126,7 +127,8 @@ public interface Feature {
    * 
    * @return an optional DiscordMessageListener to listen for messages
    */
-  public default Optional<CreateEvent<DiscordMessage>> getMessageListener() {
+  public default Optional<Listener<CreateEvent<DiscordMessage>>>
+      getMessageListener() {
     return Optional.empty();
   }
 }

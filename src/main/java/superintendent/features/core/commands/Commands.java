@@ -3,7 +3,7 @@ package superintendent.features.core.commands;
 import java.util.HashSet;
 import java.util.Set;
 
-import superintendent.adapters.common.ApiPermission;
+import superintendent.apis.common.ApiPermission;
 import superintendent.features.Feature;
 import superintendent.features.FeatureCategory;
 
@@ -32,8 +32,8 @@ public class Commands implements Feature {
   @Override
   public String getDescription() {
     return "This feature allows users to run commands. For a list of all"
-        + "commands, run the commandlist command. For help with a given"
-        + "command, run the help followed by the name of the command.";
+        + " commands, run the commandlist command. For help with a given"
+        + " command, run the help followed by the name of the command.";
   }
 
   @Override
