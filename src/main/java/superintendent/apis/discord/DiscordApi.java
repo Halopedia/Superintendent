@@ -49,15 +49,7 @@ public interface DiscordApi {
    * @return a list of all the DiscordServers the bot is in
    */
   public List<DiscordServer> getServers();
-  
-  /**
-   * Gets a list of DiscordUsers representing all of the users on the bot's
-   * friend list. This can only be done while the bot is logged in.
-   * 
-   * @return a list of all the users the bot is friends with
-   */
-  public List<DiscordUser> getFriends();
-  
+
   /**
    * Adds a global listener for message creation events.  This can only be done
    * while the bot is logged in.

@@ -77,22 +77,4 @@ public interface DiscordUser {
    */
   public boolean isAdminOnServer(DiscordServer server);
   
-  /**
-   * Returns true if and only if the user is on the bot's friend list.
-   * 
-   * @return true iff the user is a friend of the bot's
-   */
-  public boolean isFriend();
-  
-  /**
-   * Accepts a friend request from the user if one exists, or otherwise sends
-   * one.
-   */
-  public void addAsFriend();
-  
-  /**
-   * Removes the user from the bot's friend list, if the user is on it.
-   */
-  public void removeAsFriend();
-
 }

@@ -75,20 +75,4 @@ public class JavacordUser implements DiscordUser {
     return ((JavacordServer) server).getRaw().isAdmin(user);
   }
 
-  @Override
-  public boolean isFriend() {
-    // TODO: Implements friends!
-    return false;
-  }
-
-  @Override
-  public void addAsFriend() {
-    // TODO: Implements friends!
-  }
-
-  @Override
-  public void removeAsFriend() {
-    // TODO: Implements friends!
-  }
-
 }

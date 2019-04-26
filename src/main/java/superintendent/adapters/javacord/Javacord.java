@@ -53,12 +53,6 @@ public class Javacord implements superintendent.apis.discord.DiscordApi {
   }
 
   @Override
-  public List<DiscordUser> getFriends() {
-    // TODO: Implement friends!
-    return null;
-  }
-
-  @Override
   public void addGlobalMessageCreateListener(Listener<CreateEvent<DiscordMessage>> listener) {
     api.addMessageCreateListener(new MessageCreateListener() {
       @Override
